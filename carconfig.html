@@ -8,6 +8,37 @@
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+  <fieldset>
+    <legend>Fahrzeugauswahl</legend>
+    <label for="fahrzeugmodell">Fahrzeugmodell:</label>
+    <select id="fahrzeugmodell" name="fahrzeugmodell">
+      <option value="Modell A">Modell A</option>
+      <option value="Modell B">Modell B</option>
+      <option value="Modell C">Modell C</option>
+      <option value="Modell D">Modell D</option>
+      <!-- Fügen Sie hier mindestens 15 Fahrzeugmodelle ein -->
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend>Lackfarbe</legend>
+    <input type="radio" id="rot" name="lackfarbe" value="Rot">
+    <label for="rot">Rot</label><br>
+
+    <input type="radio" id="blau" name="lackfarbe" value="Blau">
+    <label for="blau">Blau</label><br>
+
+    <input type="radio" id="gruen" name="lackfarbe" value="Grün">
+    <label for="gruen">Grün</label><br>
+
+    <input type="radio" id="schwarz" name="lackfarbe" value="Schwarz">
+    <label for="schwarz">Schwarz</label><br>
+    <!-- Fügen Sie hier weitere Lackfarben hinzu -->
+  </fieldset>
+
+  <input type="submit" value="Formular absenden">
+</form>
 
 
 </body>
